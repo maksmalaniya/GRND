@@ -1,0 +1,47 @@
+.offer {
+    // .offer__card
+
+    &__card {
+        margin-top: 211px;
+        @media (min-width: $breakpoint-md) {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    // .offer__card-title
+
+    &__card-title {
+        font-size: 96px;
+        font-family: 'DelaGothicOne';
+        color: $main-font-color;
+        
+    }
+
+    // .offer__card-subtitle
+
+    &__card-subtitle {
+        font-size: 64px;
+        font-family: 'Oswald';
+        color: $main-font-color;
+        margin-top: 20px;
+    }
+
+    // .offer__card-image
+
+    &__card-image {
+        max-width: 473px;
+        max-height: 473px;
+        @media (min-width: $breakpoint-md) {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    // .offer__card-button
+
+    &__card-button {
+    }
+}
