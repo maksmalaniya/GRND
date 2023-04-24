@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-size: 48px;
+        font-family: 'Oswald';
+        color: $bg-color;
+        margin-top: 100px;
+        @media (min-width: $breakpoint-md) {
+            font-size: 96px;
+        }
+    }
+
+    &__text {
+        font-size: 32px;
+        font-family: 'Roboto';
+        color: $bg-color;
+        margin-top: 42px;
+        max-width: 812px;
+        align-self: flex-end;
+        margin-bottom: 100px;
+        @media (min-width: $breakpoint-md) {
+            margin-top: 84px;
+        }
+    }
+}

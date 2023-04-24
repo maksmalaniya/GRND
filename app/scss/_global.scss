@@ -6,6 +6,10 @@ html, body {
     background: $bg-color;
 }
 
+.wrapper-gradient {
+    background: $dark-gradient;
+}
+
 .container {
     margin: 0 auto;
     max-width: 708px;
