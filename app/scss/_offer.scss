@@ -3,45 +3,72 @@
 
     &__card {
         margin-top: 211px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        //flex: 1 1 100%;
         @media (min-width: $breakpoint-md) {
-            position: relative;
-            top: 0;
-            left: 0;
         }
+    }
+
+    &__card-textcontent {
+        max-width: 100%; 
     }
 
     // .offer__card-title
 
     &__card-title {
-        font-size: 96px;
+        font-size: 48px;
         font-family: 'DelaGothicOne';
         color: $main-font-color;
-        
+        @media (min-width: $breakpoint-md) {
+            font-size: 96px;
+        }
     }
 
     // .offer__card-subtitle
 
     &__card-subtitle {
-        font-size: 64px;
+        font-size: 32px;
         font-family: 'Oswald';
         color: $main-font-color;
         margin-top: 20px;
+        @media (min-width: $breakpoint-md) {
+            font-size: 64px;
+        }
     }
 
     // .offer__card-image
 
-    &__card-image {
+    &__card-image { 
         max-width: 473px;
         max-height: 473px;
         @media (min-width: $breakpoint-md) {
-            position: absolute;
-            top: 0;
-            right: 0;
         }
+    }
+
+    &__card-image-content {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     // .offer__card-button
 
     &__card-button {
+        display: inline-block;
+        margin-top: 80px;
+        padding: 12px 39px;
+        border-radius: 15px;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: 'DelaGothicOne';
+        color: $bg-color;
+        background: $light-blue-color;
+        @media (min-width: $breakpoint-md) {
+            padding: 24px 78px;
+            font-size: 36px;
+        }
     }
 }
