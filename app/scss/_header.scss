@@ -1,11 +1,7 @@
 .header {
 
-    // .header__head
-
     &__head {
     }
-
-    // .header__bar
 
     &__bar {
         display: flex;
@@ -13,12 +9,8 @@
         justify-content: space-between;
     }
 
-    // .header__logo-link
-
     &__logo-link {
     }
-
-    // .header__logo
 
     &__logo {
         width: 55px;
@@ -28,8 +20,6 @@
             height: 128px;
         }
     }
-
-    // .header__burger
 
     &__burger {
         width: 25px;
@@ -53,8 +43,6 @@
             display: none;
         }
     }
-
-    // .header__nav
 
     &__nav {
         position: fixed;
@@ -106,8 +94,6 @@
         }
     }
 
-    // .header__nav-list
-
     &__nav-list {
         display: block;
         @media (min-width: $breakpoint-md) {
@@ -123,8 +109,6 @@
         }
     }
 
-    // .header__nav-item
-
     &__nav-item {
         margin: 10x 0 10px 0;
         border: 1px solid $bg-color;
@@ -133,8 +117,6 @@
             margin: 0;
         }
     }
-
-    // .header__nav-item-link
 
     &__nav-item-link {
         display: inline-block;

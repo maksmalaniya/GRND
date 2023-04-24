@@ -1,14 +1,11 @@
 .nightClub {
     position: relative;
-    // .nightClub__image-club
 
     &__image-club {
         max-width: 100%;
         object-fit: cover;
         color: $bg-color;
     }
-
-    // .nightClub__image-grnd
 
     &__image-grnd {
         max-width: 80%;

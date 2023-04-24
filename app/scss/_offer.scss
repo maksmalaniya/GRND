@@ -1,5 +1,4 @@
 .offer {
-    // .offer__card
 
     &__card {
         margin-top: 211px;
@@ -13,8 +12,6 @@
         max-width: 100%; 
     }
 
-    // .offer__card-title
-
     &__card-title {
         font-size: 48px;
         font-family: 'DelaGothicOne';
@@ -23,8 +20,6 @@
             font-size: 96px;
         }
     }
-
-    // .offer__card-subtitle
 
     &__card-subtitle {
         font-size: 32px;
@@ -35,8 +30,6 @@
             font-size: 64px;
         }
     }
-
-    // .offer__card-image
 
     &__card-image { 
         max-width: 473px;
@@ -50,8 +43,6 @@
         height: 100%;
         object-fit: cover;
     }
-
-    // .offer__card-button
 
     &__card-button {
         display: inline-block;
