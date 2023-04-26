@@ -1,0 +1,149 @@
+.event {
+    &__event {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    &__back {
+        width: 50px;
+        height: 30px;
+        @media (min-width:$breakpoint-md) {
+        width: 90px;
+        height: 60px;
+        }
+        @media (min-width:$breakpoint-lg) {
+        width: 181px;
+        height: 121px;
+        }
+    }
+
+    &__back-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__title {
+        color: $main-font-color;
+        font-family: 'DelaGothicOne';
+        font-size: 30px;
+        @media (min-width:$breakpoint-md) {
+            font-size: 48px;
+        }
+        @media (min-width:$breakpoint-lg) {
+            font-size: 96px;
+        }
+    }
+
+    &__card {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        @media (min-width:$breakpoint-md) {
+            flex-direction: row;
+        }
+        @media (min-width:$breakpoint-xl) {
+            justify-content: space-between;
+        }
+    }
+
+    &__card-textcontent {
+        flex: 1 1 30%;
+        margin-top: 20px;
+        @media (min-width:$breakpoint-md) {
+            flex: 1 1 20%;
+            margin: 0;
+        }
+    }
+
+    &__card-subtitle {
+        background: $light-gradient;
+        background-clip: text;
+        color: transparent;
+        font-family: 'Oswald';
+        font-size: 20px;
+        padding-bottom: 12px;
+        @media (min-width:$breakpoint-md) {
+            font-size: 32px;
+        }
+        @media (min-width:$breakpoint-lg) {
+            font-size: 64px;
+        }
+    }
+
+    &__card-djs {
+        color: $main-font-color;
+        font-family: 'RobotoBlack';
+        font-size: 20px;
+        @media (min-width: $breakpoint-md) {
+            font-size: 32px;
+        }
+    }
+
+    &__card-list-item {
+        color: $main-font-color;
+        font-family: 'Roboto';
+        padding-right: 10px;
+        margin-left: 14px;
+        position: relative;
+        font-size: 20px;
+        @media (min-width: $breakpoint-md) {
+            font-size: 32px;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -10px;
+            width: 4px;
+            height: 4px;
+            background: $main-font-color;
+            border-radius: 50%;
+        }
+    }
+
+    &__card-text {
+        color: $main-font-color;
+        font-family: 'Roboto';
+        margin-top: 30px;
+        font-size: 20px;
+        @media (min-width: $breakpoint-md) {
+            font-size: 32px;
+        }
+        @media (min-width: $breakpoint-lg){
+            margin-top: 88px;
+        }
+    }
+
+    &__card-images {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex: 1 1 30%;
+        @media (min-width:$breakpoint-md) {
+            flex-direction: column;
+            justify-content: space-around;
+            gap: unset;
+        }
+        @media (min-width:$breakpoint-lg) {
+            justify-content: space-between;
+        }
+        @media (min-width:$breakpoint-xl) {
+            gap: 20px;
+            align-items: end;
+        }
+    }
+
+    &__card-image-content {
+        max-width: 534px;
+        max-height: 623px;
+    }
+
+    &__card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
