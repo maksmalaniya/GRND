@@ -122,8 +122,6 @@
 //DRINKS
 .drinks {
 
-    // .drinks__title
-
     &__title {
         padding: 80px 0 60px 0;
         background: $light-gradient;
@@ -142,6 +140,7 @@
     // .drinks__card
 
     &__card {
+        margin-top: 60px;
         display: flex;
         flex-direction: column;
         //justify-content: space-between;
@@ -188,6 +187,7 @@
 
     &__card-textcontent-main {
         display: flex;
+        flex: 1 1 50%;
         flex-direction: column;
         justify-content: space-between;
         padding-right: 50px;
