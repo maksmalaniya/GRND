@@ -147,3 +147,85 @@
         object-fit: cover;
     }
 }
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    flex: 1 1 100%;
+    @media (min-width:$breakpoint-md) {
+        max-width: 427px;
+    }
+    @media (min-width:$breakpoint-lg) {
+        max-width: 854px;
+    }
+
+    &__title {
+        color: $main-font-color;
+        font-family: 'DelaGothicOne';
+        font-size: 30px;
+        text-align: center;
+        @media (min-width:$breakpoint-md) {
+            font-size: 48px;
+        }
+        @media (min-width:$breakpoint-lg) {
+            font-size: 96px;
+        }
+    }
+
+    &__name-input {
+        margin: 10px;
+        background: $bg-color;
+        height: 50px;
+        border-radius: 14px;
+        outline: none;
+        border-color: $pink-color;
+        padding: 10px;
+        color: $main-font-color;
+        font-size: 16px;
+        border: 2px solid $pink-color;
+        @media (min-width:$breakpoint-md) {
+            margin: 20px;
+        }
+    }
+
+    &__phone-input {
+        margin: 10px;
+        background: $bg-color;
+        height: 50px;
+        border-radius: 14px;
+        outline: none;
+        border-color: $pink-color;
+        padding: 10px;
+        color: $main-font-color;
+        font-size: 16px;
+        border: 2px solid $pink-color;
+        @media (min-width:$breakpoint-md) {
+            margin: 20px;
+        }
+    }
+
+    &__button-input {
+        display: inline-block;
+        margin: 10px auto;
+        text-align: center;
+        border-radius: 15px;
+        border: none;
+        color: $bg-color;
+        background: $pink-color;
+        font-family: 'Oswald';
+        font-size: 16px;
+        padding: 4px 45px;
+        @media (min-width:$breakpoint-md) {
+            margin: 20px auto;
+            font-size: 20px;
+            padding: 9px 50px;
+        }
+        @media (min-width:$breakpoint-lg) {
+            font-size: 36px;
+            padding: 9px 72px;
+        }
+    }
+}
