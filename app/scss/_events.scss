@@ -1,21 +1,15 @@
 .events {
 
     &__title {
-        padding-top: 80px;
         color: $main-font-color;
         font-size: 48px;
         font-family: 'DelaGothicOne';
+        text-align: right;
         @media (min-width:$breakpoint-md) {
-            padding-top: 80px;
-            color: $main-font-color;
             font-size: 48px;
-            font-family: 'DelaGothicOne';
         }
         @media (min-width:$breakpoint-lg) {
-            padding-top: 80px;
-            color: $main-font-color;
             font-size: 96px;
-            font-family: 'DelaGothicOne';
         }
     }
 
