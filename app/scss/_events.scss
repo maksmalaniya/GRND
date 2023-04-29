@@ -109,5 +109,8 @@
             padding: 24px 78px;
             font-size: 36px;
         }
+        &:hover {
+            background: $dark-blue-color;
+        }
     }
 }
