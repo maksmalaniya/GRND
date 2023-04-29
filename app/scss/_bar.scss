@@ -54,7 +54,6 @@
     align-items: center;
 
     &__text-content {
-        //margin-top: 34px;
         display: flex;
         flex-direction: column;
     }
@@ -137,19 +136,14 @@
         }
     }
 
-    // .drinks__card
-
     &__card {
         margin-top: 60px;
         display: flex;
         flex-direction: column;
-        //justify-content: space-between;
         @media (min-width:$breakpoint-md) {
             flex-direction: row-reverse;
         }
     }
-
-    // .drinks__card-image-content
 
     &__card-image-content {
         flex: 0 1 30%;
@@ -168,15 +162,11 @@
         }
     }
 
-    // .drinks__card-image
-
     &__card-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
-    // .drinks__card-textcontent
 
     &__card-textcontent {
         display: flex;
@@ -191,10 +181,7 @@
         flex-direction: column;
         justify-content: space-between;
         padding-right: 50px;
-        //flex: 1 1 30%;
     }
-
-    // .drinks__card-title
 
     &__card-title {
         font-family: 'DelaGothicOne';
@@ -204,8 +191,6 @@
             font-size: 30px;
         }
     }
-
-    // .drinks__card-subtitle
 
     &__card-subtitle {
         font-family: 'DelaGothicOne';
@@ -217,8 +202,6 @@
         }
     }
 
-    // .drinks__card-icons
-
     &__card-icons {
         display:flex;
         justify-content: space-between;
@@ -227,8 +210,6 @@
             margin: 0;
         }
     }
-
-    // .drinks__card-icons-heart
 
     &__card-icons-heart {  
         width: 25px;
@@ -239,16 +220,12 @@
         }
     }
 
-    // .drinks__card-icons-number
-
     &__card-icons-number {
         font-family: 'DelaGothicOne';
         color: $main-font-color;
         font-size: 15px;
         margin: auto 0;
     }
-
-    // .drinks__card-price
 
     &__card-price {
         flex: 1 1 30%;
@@ -273,7 +250,6 @@
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    //justify-content: space-between;
     @media (min-width:$breakpoint-md) {
         flex-direction: row;
     }
