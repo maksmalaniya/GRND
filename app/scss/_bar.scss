@@ -194,10 +194,6 @@
         //flex: 1 1 30%;
     }
 
-    &__card-descrioption {
-
-    }
-
     // .drinks__card-title
 
     &__card-title {
@@ -270,5 +266,55 @@
         @media (min-width:$breakpoint-lg) {
             font-size: 64px;
         }
+    }
+}
+
+.right {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+    @media (min-width:$breakpoint-md) {
+        flex-direction: row;
+    }
+}
+
+.right-textcontent {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1 1 70%;
+    justify-content: space-between;
+    @media (min-width:$breakpoint-md) {
+        flex-direction: row;
+    }
+}
+
+.card-textcontent-main-right {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0;
+    @media (min-width:$breakpoint-md) {
+        padding-left: 50px;
+    }
+}
+
+.card-price-right {
+    flex: 1 1 30%;
+    font-family: 'DelaGothicOne';
+    color: $main-font-color;
+    font-size: 15px;
+    align-self: center;
+    text-align: right;
+    padding: 40px;
+    @media (min-width:$breakpoint-md) {
+        font-size: 32px;
+        padding: 0;
+        text-align: right;
+    }
+    @media (min-width:$breakpoint-lg) {
+        font-size: 64px;
     }
 }
